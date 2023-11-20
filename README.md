@@ -6,4 +6,7 @@ A quick and dirty hack approach to deleting old tweets. It's not perfect, and it
 1. Use the `tweet_sorter` code to select out the tweets you want to delete. You can skip this step if you want to delete everything. Note that there are settings to adjust what gets sorted into the keep and delete buckets. 
 1. Use the `tweet_deleter` code to delete them. Note that there are a few settings to adjust, and you need to log into your twitter in the middle of the script.
 
-N.B. you'll need `selenium` and a browser driver set up. There are many guides for this online.
+Notes:
+1. This code won't work for everyone, but if you have basic python experience, this should work for you.
+1. The deletion script is slow. It takes about 4 seconds per tweet, or over 7 hours for my own twitter history. The good thing about automation is you can just walk away from it. One could optimize it to go faster, but it's a one-time cost and I need to get back to real work.
+1. You'll need `selenium` and a browser driver set up. There are many guides for this online.
