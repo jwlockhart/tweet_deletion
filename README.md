@@ -8,5 +8,5 @@ A quick and dirty hack approach to deleting old tweets. It's not perfect, and it
 
 Notes:
 1. This code won't work for everyone, but if you have basic python experience, this should work for you.
-1. The deletion script is slow. It takes about 4 seconds per tweet, or over 7 hours for my own twitter history. The good thing about automation is you can just walk away from it. One could optimize it to go faster, but it's a one-time cost and I need to get back to real work.
-1. You'll need `selenium` and a browser driver set up. There are many guides for this online.
+1. The deletion script is slow. It takes 4-8 seconds per tweet. The good thing about automation is you can just walk away from it. One could optimize it to go faster, but it's a one-time cost and I need to get back to real work.
+1. You are likely to hit your tweets per day limit when you run this. If so, note where you left off and pick up there tomorrow.
